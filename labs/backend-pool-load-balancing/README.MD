@@ -1,29 +1,29 @@
 # APIM ❤️ OpenAI
 
-## [Backend pool Load Balancing lab](backend-circuit-breaking.ipynb)
+## [バックエンドプール負荷分散ラボ](backend-circuit-breaking.ipynb)
 
 [![flow](../../images/backend-pool-load-balancing.gif)](backend-pool-load-balancing.ipynb)
 
-Playground to try the built-in load balancing [backend pool functionality of APIM](https://learn.microsoft.com/en-us/azure/api-management/backends?tabs=bicep) to either a list of Azure OpenAI endpoints or mock servers.
+Azure OpenAIエンドポイントまたはモックサーバーのリストに対して、APIMの組み込み[バックエンドプール機能](https://learn.microsoft.com/en-us/azure/api-management/backends?tabs=bicep)を使用した負荷分散を試すためのプレイグラウンド。
 
-### Result
+### 結果
 
 ![result](result.png)
 
-### Prerequisites
+### 前提条件
 
-- [Python 3.8 or later version](https://www.python.org/) installed
-- [VS Code](https://code.visualstudio.com/) installed with the [Jupyter notebook extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) enabled
-- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) installed
-- [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with Contributor permissions
-- [Access granted to Azure OpenAI](https://aka.ms/oai/access) or just enable the mock service
-- [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)
+- [Python 3.8以降のバージョン](https://www.python.org/)がインストールされていること
+- [VS Code](https://code.visualstudio.com/)がインストールされ、[Jupyterノートブック拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)が有効になっていること
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)がインストールされていること
+- Contributor権限を持つ[Azureサブスクリプション](https://azure.microsoft.com/en-us/free/)があること
+- [Azure OpenAIへのアクセス](https://aka.ms/oai/access)が許可されていること、またはモックサービスを有効にすること
+- [Azure CLIでAzureにサインイン](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)していること
 
-### 🚀 Get started
+### 🚀 始めましょう
 
-Proceed by opening the [Jupyter notebook](backend-pool-load-balancing.ipynb), and follow the steps provided.
+[Jupyterノートブック](backend-pool-load-balancing.ipynb)を開き、提供された手順に従って進めてください。
 
-### 🗑️ Clean up resources
+### 🗑️ リソースのクリーンアップ
 
-When you're finished with the lab, you should remove all your deployed resources from Azure to avoid extra charges and keep your Azure subscription uncluttered.
-Use the [clean-up-resources notebook](clean-up-resources.ipynb) for that.
+ラボが終了したら、追加の料金を避け、Azureサブスクリプションを整理するために、デプロイしたすべてのリソースをAzureから削除する必要があります。
+そのためには、[リソースのクリーンアップノートブック](clean-up-resources.ipynb)を使用してください。
