@@ -1,25 +1,25 @@
 # APIM ❤️ OpenAI
 
-## [Backend Circuit Breaking lab](backend-circuit-breaking.ipynb)
+## [バックエンドサーキットブレーカラボ](backend-circuit-breaking.ipynb)
 
 [![flow](../../images/backend-circuit-breaking.gif)](backend-circuit-breaking.ipynb)
 
-Playground to try the built-in [backend circuit breaker functionality of APIM](https://learn.microsoft.com/en-us/azure/api-management/backends?tabs=bicep) to either an Azure OpenAI endpoints or a mock server.
+Azure OpenAIエンドポイントまたはモックサーバーに対して、APIMの組み込み[バックエンドサーキットブレーカ機能](https://learn.microsoft.com/en-us/azure/api-management/backends?tabs=bicep)を試すためのプレイグラウンド。
 
-### Prerequisites
+### 前提条件
 
-- [Python 3.8 or later version](https://www.python.org/) installed
-- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) installed
-- [VS Code](https://code.visualstudio.com/) installed
-- [An Azure Subscription](https://azure.microsoft.com/en-us/free/) with access permissions
-- [Access granted to Azure OpenAI](https://aka.ms/oai/access) or just enable the mock service
-- [Sign in to Azure with Azure CLI](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)
+- [Python 3.8以降のバージョン](https://www.python.org/)がインストールされていること
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)がインストールされていること
+- [VS Code](https://code.visualstudio.com/)がインストールされていること
+- アクセス権限を持つ[Azureサブスクリプション](https://azure.microsoft.com/en-us/free/)があること
+- [Azure OpenAIへのアクセス](https://aka.ms/oai/access)が許可されていること、またはモックサービスを有効にすること
+- [Azure CLIでAzureにサインイン](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli-interactively)していること
 
-### Get started
+### 始めましょう
 
-Proceed by opening the [Jupyter notebook](backend-circuit-breaking.ipynb), and follow the steps provided.
+[Jupyterノートブック](backend-circuit-breaking.ipynb)を開き、提供された手順に従って進めてください。
 
-### 🗑️ Clean up resources
+### 🗑️ リソースのクリーンアップ
 
-When you're finished with the lab, you should remove all your deployed resources from Azure to avoid extra charges and keep your Azure subscription uncluttered.
-Use the [clean-up-resources notebook](clean-up-resources.ipynb) for that.
+ラボが終了したら、追加の料金を避け、Azureサブスクリプションを整理するために、デプロイしたすべてのリソースをAzureから削除する必要があります。
+そのためには、[リソースのクリーンアップノートブック](clean-up-resources.ipynb)を使用してください。
